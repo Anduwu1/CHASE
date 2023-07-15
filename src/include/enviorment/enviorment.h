@@ -31,6 +31,9 @@ namespace Enviorment {
 	public:
 		template<typename... Args>
 		Source(Transform::Point val, Args... args);
+
+		// Getter and setter
+		std::vector<Transform::Point> getVertices();
 	};
 
 	/*
@@ -42,6 +45,13 @@ namespace Enviorment {
 		std::vector<Source> regions;
 	public:
 		Enviorment();
+
+		// Create sources
+		void addSource(Source src);
+		
+		// Getters and setters
+
+		
 	};
 
 	

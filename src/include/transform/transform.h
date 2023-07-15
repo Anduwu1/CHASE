@@ -19,6 +19,8 @@
 #define TRANSFORM_H
 
 #include <tuple>
+#include <valarray>
+#include <vector>
 
 typedef std::tuple<float, float, float> vector3;
 
